@@ -1,0 +1,33 @@
+.game {
+	width: 512px;
+	height: 640px;
+	background-color: #41526e;
+}
+
+#fish-0, #fish-1, #fish-2 {
+	position: relative;
+	top: 640px;
+}
+
+#fish-0 {
+	left: 0px;
+}
+
+#fish-1 {
+	left: 0x;
+}
+
+#fish-2 {
+	left: 0px;
+}
+
+#fish-3 {
+	position: relative;
+	left: 384px;
+	top: 512px;
+}
+
+@keyframes floating-down {
+	0% {transform: translateY(-768px);}
+	100% {transform: translateY(0px);}
+}
